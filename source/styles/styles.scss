@@ -7,6 +7,7 @@
 
 /* BLOCKS */
 /* Главная страница */
+@import "./blocks/title.scss";
 @import "./blocks/main-header.scss";
 @import "./blocks/logo-image.scss";
 @import "./blocks/logo-text.scss";
@@ -14,7 +15,6 @@
 @import "./blocks/site-list.scss";
 @import "./blocks/main-container.scss";
 @import "./blocks/hero.scss";
-@import "./blocks/title.scss";
 @import "./blocks/hero-image.scss";
 @import "./blocks/button.scss";
 @import "./blocks/catalog.scss";

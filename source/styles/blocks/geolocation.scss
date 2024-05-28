@@ -1,0 +1,48 @@
+.geolocation {
+  background-color: #ffffff;
+}
+
+.geolocation__text {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  text-transform: uppercase;
+  width: 140px;
+}
+
+.geolocation__adress {
+  font-size: 14px;
+  line-height: 20px;
+  width: 140px;
+}
+
+.geolocation__adress-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 320px;
+  margin: 0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .geolocation__adress-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 628px;
+    margin: 0 auto;
+  }
+}
+
+// @media (min-width: $desktop-width) {
+//   .geolocation__adress-wrapper {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 628px;
+//     margin: 0 auto;
+//   }
+// }
+
+// .geolocation__map {
+
+// }

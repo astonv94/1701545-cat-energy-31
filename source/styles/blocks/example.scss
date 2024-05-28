@@ -1,0 +1,155 @@
+.example {
+  background-color: #eaeaea;
+}
+
+.example__wrapper {
+  width: 280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+// .example__title {
+
+// }
+
+.example__discription {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.example__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 124px;
+}
+
+.example__info-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.example__value {
+  font-family: "Oswrard", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.example__text {
+  font-size: 12px;
+  line-height: 12px;
+  width: 59px;
+  text-align: center;
+}
+
+.example__result {
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+// .example__info-price {
+
+// }
+
+.example__slider-cat {
+  position: relative;
+}
+
+.example__slider-button {
+  cursor: pointer;
+  width: 4px;
+  height: 100%;
+  padding: 0;
+  background-color: #666666;
+  border-radius: 2px;
+  border: none;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.example__slider-button::before {
+  content: "";
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: solid 2px #666666;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.example__slider-button::after {
+  content: "";
+  background-color: #666666;
+  width: 24px;
+  height: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 70%);
+  padding: 0;
+  mask-image: url("../../icons/stack.svg#slider-button-arrow");
+  mask-size: 24px 18px;
+  mask-position: 50%;
+  mask-repeat: no-repeat;
+}
+// .example__image-cat {
+
+// }
+@media (min-width: $tablet-width) {
+  .example__wrapper {
+    width: 769px;
+    margin: 0 auto;
+  }
+
+  .example {
+    background-color: #ffffff;
+  }
+
+  .example__result {
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 180px;
+  }
+
+  .example__info-price-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .example__info-price {
+    min-width: 120px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .example__wrapper {
+    width: 769px;
+    margin: 0 auto;
+  }
+
+  .example__info-price-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 368px;
+  }
+
+  .example__result {
+    display: flex;
+    justify-content: space-between;
+    width: 327px;
+  }
+}

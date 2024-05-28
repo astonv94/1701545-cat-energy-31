@@ -1,12 +1,15 @@
 .main-header {
   background-color: #ffffff;
   color: #000000;
+  padding: 13px 20px;
 }
 
 .main-header__logo-link {
   text-decoration: none;
   display: flex;
   align-items: center;
+  width: 73%;
+  justify-content: space-between;
 }
 
 .main-header__logo-image {
@@ -14,18 +17,7 @@
 }
 
 .main-header__logo-text {
-  height: 18px;
-}
-
-.main-header__toggle {
-  background-image: url("../../icons/stack.svg#button-open-mobile");
-  background-color: #ffffff;
-  background-size: 24px 24px;
-  background-repeat: no-repeat;
-  width: 24px;
-  height: 24px;
-  cursor: pointer;
-  border: none;
+  height: 20px;
 }
 
 @media (min-width: $mobile-width-only) {
@@ -36,18 +28,4 @@
     align-items: center;
     justify-content: space-between;
   }
-
-  .main-header__toggle {
-    display: none;
-  }
-}
-
-.main-header__toggle--close {
-  background-image: url("../../icons/stack.svg#button-close-mobile");
-}
-
-.main-header__menu {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }

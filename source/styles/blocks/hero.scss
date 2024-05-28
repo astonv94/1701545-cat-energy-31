@@ -4,6 +4,7 @@
   background: linear-gradient($base-color-green 65%, #ffffff 65%);
   // background-image: url("../../images/hero-cat-bg-mobile@1x.png");
   // background-repeat: no-repeat;
+  margin-bottom: 20px;
 }
 
 .hero__wrapper {
@@ -15,6 +16,10 @@
   font-size: 36px;
   color: #ffffff;
   background-color: $base-color-green;
+  padding: 27px 0 25px;
+  margin: 0;
+  text-align: center;
+  font-weight: 400;
 }
 
 .hero__text {
@@ -23,6 +28,8 @@
   color: #ffffff;
   background-color: $base-color-green;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
 }
 
 .hero__button-program {
@@ -36,6 +43,7 @@
   padding: 10px 63px;
   display: flex;
   justify-content: center;
+  margin-left: 20px;
 }
 
 @media (min-width: $tablet-width) {

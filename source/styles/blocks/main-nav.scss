@@ -1,7 +1,6 @@
 .main-nav {
   position: relative;
   width: auto;
-  background-color: #ffffff;
 }
 
 .main-nav__list {
@@ -56,5 +55,11 @@
 @media (min-width: $tablet-width) {
   .main-nav__toggle {
     display: none;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .main-nav__list {
+    background: none;
   }
 }

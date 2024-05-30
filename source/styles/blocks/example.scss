@@ -5,23 +5,36 @@
 .example__wrapper {
   width: 280px;
   margin: 0 auto;
-  padding: 0 20px;
 }
 
-// .example__title {
-
-// }
+.example__title {
+  font-weight: 400;
+  padding-top: 25px;
+  padding-bottom: 40px;
+  font-size: 36px;
+  line-height: 40px;
+  margin: 0;
+}
 
 .example__discription {
+  width: 280px;
+  font-family: "lato", "Arial", sans-serif;
   font-size: 14px;
+  font-weight: 400;
   line-height: 18px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .example__info {
+  background-image: url("../../icons/stack.svg#example-frame");
+  background-repeat: no-repeat;
+  background-size: 124px 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 124px;
+  height: 70px;
 }
 
 .example__info-wrapper {
@@ -30,11 +43,14 @@
 }
 
 .example__value {
-  font-family: "Oswrard", sans-serif;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "Oswald", sans-serif;
   font-size: 24px;
+  font-weight: 400;
   line-height: 24px;
   color: #000000;
-  text-transform: uppercase;
 }
 
 .example__text {
@@ -52,6 +68,7 @@
   text-transform: uppercase;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 // .example__info-price {
@@ -60,6 +77,9 @@
 
 .example__slider-cat {
   position: relative;
+  margin-top: 20px;
+  min-height: 256px;
+  width: 280px;
 }
 
 .example__slider-button {
@@ -73,7 +93,7 @@
   display: block;
   position: absolute;
   top: 0;
-  left: 20px;
+  left: 50%;
 }
 
 .example__slider-button::before {
@@ -104,9 +124,11 @@
   mask-position: 50%;
   mask-repeat: no-repeat;
 }
-// .example__image-cat {
 
-// }
+.example__image-cat {
+  position: absolute;
+}
+
 @media (min-width: $tablet-width) {
   .example__wrapper {
     width: 769px;

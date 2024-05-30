@@ -1,6 +1,7 @@
 .main-header {
   background-color: #ffffff;
   color: #000000;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .main-header__logo {
@@ -32,6 +33,7 @@
     justify-content: space-between;
     width: 704px;
     margin: 0;
+    border: none;
   }
 }
 

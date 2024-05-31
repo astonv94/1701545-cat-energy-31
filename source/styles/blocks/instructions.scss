@@ -30,6 +30,7 @@
   justify-content: space-between;
   width: 280px;
   margin-bottom: 20px;
+  color: #000000;
 }
 
 .instructions__discription {
@@ -42,6 +43,11 @@
 }
 
 @media (min-width: $tablet-width) {
+  .instructions {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9;
+  }
+
   .instructions__wrapper {
     width: 708px;
     margin: 0 auto;
@@ -86,6 +92,11 @@
 }
 
 @media (min-width: $desktop-width) {
+  .instructions {
+    padding-bottom: 69px;
+    border: none;
+  }
+
   .instructions__wrapper {
     width: 1220px;
     margin: 0 auto;

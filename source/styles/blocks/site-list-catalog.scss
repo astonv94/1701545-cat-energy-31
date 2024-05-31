@@ -2,7 +2,9 @@
   color: #000000;
 }
 
-.site-list-catalog__link-current {
-  border-bottom: 2px solid $base-color-green;
-  padding-bottom: 6px;
+@media (min-width: $desktop-width) {
+  .site-list-catalog__link-current {
+    border-bottom: 2px solid $base-color-green;
+    padding-bottom: 6px;
+  }
 }

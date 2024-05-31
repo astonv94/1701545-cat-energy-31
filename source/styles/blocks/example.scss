@@ -130,6 +130,8 @@
 
 .example__image-cat {
   position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 @media (min-width: $tablet-width) {
@@ -283,9 +285,9 @@
   .example__slider-cat {
     position: absolute;
     min-height: 512px;
-    width: 260px;
+    width: 560px;
     top: 0;
-    right: 290px;
+    right: 0;
   }
 
   .example__slider-button {
@@ -299,6 +301,6 @@
     display: block;
     position: absolute;
     top: 0;
-    left: 120%;
+    left: 50%;
   }
 }

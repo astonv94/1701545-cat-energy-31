@@ -4,7 +4,6 @@
 
 .catalog-product__wrapper {
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .catalog-product__title {
@@ -12,21 +11,25 @@
   padding: 27px 0 41px;
   margin: 0;
   font-weight: 400;
+  margin-left: 20px;
 }
 
 .catalog-product__list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  padding: 0;
   margin: 0;
+  padding: 0;
   align-items: center;
 }
 
 .catalog-product__item {
-  flex-flow: column wrap;
   width: 320px;
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-top: 1px solid #ebebeb;
+  padding: 20px 20 25px;
 }
 
 @media (min-width: $tablet-width) {

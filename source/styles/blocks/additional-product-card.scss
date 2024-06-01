@@ -1,14 +1,25 @@
 .additional-product-card {
+  border-top: 1px solid #cdcdcd;
+  padding-top: 13px;
+  padding-bottom: 19px;
   display: flex;
   flex-direction: column;
 }
 
+.additional-product-card:last-child {
+  border-bottom: 1px solid #cdcdcd;
+}
+
 .additional-product-card__title {
   font-family: "Oswald", sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 16px;
   color: #222222;
   background-color: #ffffff;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0 0 13px;
 }
 
 .additional-product-card__content {
@@ -16,6 +27,7 @@
   justify-content: space-between;
   font-size: 14px;
   line-height: 14px;
+  margin: 0 0 15px;
 }
 
 // .additional-product-card__name-product {
@@ -34,4 +46,14 @@
   background-color: $base-color-green;
   font-family: "Oswald", sans-serif;
   text-decoration: none;
+  padding: 10px 109px;
+}
+
+.additional-product-card__button:hover {
+  background-color: #5eaa2f;
+}
+
+.additional-product-card__button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5eaa2f;
 }

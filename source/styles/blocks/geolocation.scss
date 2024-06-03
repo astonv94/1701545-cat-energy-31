@@ -2,10 +2,6 @@
   background-color: #ffffff;
 }
 
-.geolocation__adress--city {
-  display: block;
-}
-
 .geolocation__map {
   margin: 0 auto;
   min-height: 362px;
@@ -28,6 +24,10 @@
   line-height: 20px;
   font-size: 14px;
   width: 140px;
+
+  &--city {
+    display: block;
+  }
 }
 
 .geolocation__adress-wrapper {
@@ -65,10 +65,10 @@
     font-size: 16px;
     width: 157px;
     text-align: right;
-  }
 
-  .geolocation__adress--city {
-    margin-top: 19px;
+    &--city {
+      margin-top: 19px;
+    }
   }
 }
 

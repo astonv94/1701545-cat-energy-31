@@ -39,11 +39,11 @@
     min-width: 64px;
     border: none;
     padding: 0;
-  }
 
-  .site-list__link--current {
-    border-bottom: 2px solid #68b738;
-    padding-bottom: 8px;
+    &--current {
+      border-bottom: 2px solid #68b738;
+      padding-bottom: 8px;
+    }
   }
 
   .site-list__item {
@@ -75,14 +75,16 @@
     border: none;
     padding: 0;
     background: none;
+
+    &--current {
+      border-bottom: 2px solid #ffffff;
+      padding-bottom: 6px;
+    }
   }
 
-  .site-list__item:first-child {
-    margin: 0;
-  }
-
-  .site-list__link--current {
-    border-bottom: 2px solid #ffffff;
-    padding-bottom: 6px;
+  .site-list__item {
+    &:first-child {
+      margin: 0;
+    }
   }
 }

@@ -10,6 +10,17 @@
   line-height: 20px;
   text-decoration: none;
   width: 280px;
+
+  &--html-academy {
+    &::after {
+      content: "";
+      width: 27px;
+      height: 34px;
+      background-color: #666666;
+      mask-image: url("../../icons/stack.svg#html-academy-icon");
+      display: block;
+    }
+  }
 }
 
 .copyright__link-text {
@@ -19,17 +30,6 @@
   color: #444444;
   width: 113px;
   margin-right: 10px;
-}
-
-.copyright__link--html-academy {
-  &::after {
-    content: "";
-    width: 27px;
-    height: 34px;
-    background-color: #666666;
-    mask-image: url("../../icons/stack.svg#html-academy-icon");
-    display: block;
-  }
 }
 
 @media (min-width: $tablet-width) {

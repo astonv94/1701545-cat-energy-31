@@ -186,10 +186,10 @@
     width: 162px;
     height: 77px;
     margin-right: 43px;
-  }
 
-  .example__info:last-child {
-    margin-right: 0;
+    &:last-child {
+      margin-right: 0;
+    }
   }
 
   .example__result {

@@ -182,6 +182,11 @@
     padding: 0;
   }
 
+  .product-card__image-big {
+    display: block;
+    margin: -18px;
+  }
+
   .product-card__link-title,
   .product-card__title {
     font-family: "Oswald", sans-serif;
@@ -243,6 +248,7 @@
       margin: 0 17px 25px;
     }
 
+
     &--more .product-card__text {
       font-size: 16px;
       line-height: 18px;
@@ -266,6 +272,11 @@
     width: 172px;
     height: 196px;
     margin-bottom: 10px;
+  }
+
+  .product-card__image-big {
+    display: block;
+    margin: -10px;
   }
 
   .product-card__button {

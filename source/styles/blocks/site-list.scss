@@ -47,7 +47,7 @@
   }
 
   .site-list__item {
-    margin-left: 33px;
+    margin: 10px 0 0 32px;
     font-size: 20px;
     line-height: 30px;
     background: none;
@@ -58,7 +58,8 @@
   .site-list {
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 478px;
+    align-items: baseline;
+    width: 475px;
     font-size: 20px;
     line-height: 30px;
     background: none;
@@ -66,8 +67,8 @@
 
   .site-list__link {
     font-family: "Oswald", sans-serif;
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 20px;
+    line-height: 30px;
     color: #ffffff;
     text-transform: uppercase;
     text-decoration: none;

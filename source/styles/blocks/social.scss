@@ -18,6 +18,16 @@
   min-width: 28px;
   min-height: 28px;
 
+  &:hover,
+  &:focus-visible {
+    background-color: $base-color-green;
+  }
+
+  &:active {
+    background-color: $base-color-green;
+    opacity: 0.3;
+  }
+
   &--vkontakte {
     display: block;
     background-color: #666666;
@@ -26,10 +36,6 @@
     mask-repeat: no-repeat;
     width: 27px;
     height: 17px;
-
-    &:hover {
-      background-color: $base-color-green;
-    }
   }
 
   &--youtube {

@@ -14,6 +14,15 @@
   align-items: center;
   width: 71%;
   justify-content: space-between;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .main-header__logo-image {

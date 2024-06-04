@@ -67,6 +67,16 @@
     mask-position: 100%;
     margin-left: 15px;
   }
+
+  &:active {
+    opacity: 0.3;
+  }
+
+  &:hover::after,
+  &:focus-visible::after {
+    background-position: 0;
+    transform: scale(1.5);
+  }
 }
 
 @media (min-width: $tablet-width) {

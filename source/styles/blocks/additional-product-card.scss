@@ -39,7 +39,8 @@
   text-decoration: none;
   padding: 10px 109px;
 
-  &:hover {
+  &:hover,
+  &:focus-visible {
     background-color: #5eaa2f;
   }
 

@@ -127,6 +127,30 @@
     mask-position: 50%;
     mask-repeat: no-repeat;
   }
+
+  &:hover,
+  &:hover::after,
+  &:focus-visible,
+  &:focus-visible::after {
+    background-color: $base-color-green;
+  }
+
+  &:hover::before {
+    color: $base-color-green;
+    border: 2px solid $base-color-green;
+  }
+
+  &:active,
+  &:active::after {
+    background-color: $base-color-green;
+    opacity: 0.8;
+  }
+
+  &:active::before {
+    color: $base-color-green;
+    border: 2px solid $base-color-green;
+    opacity: 0.8;
+  }
 }
 
 .example__image-cat {

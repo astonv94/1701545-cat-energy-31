@@ -66,6 +66,15 @@
   top: 300px;
   min-width: 153px;
   display: block;
+
+  &:hover,
+  &:focus-visible {
+    background-color: #5eaa2f;
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3);
+  }
 }
 
 @media (min-width: $tablet-width) {

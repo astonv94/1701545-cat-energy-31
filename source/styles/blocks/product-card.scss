@@ -39,7 +39,8 @@
   padding: 10px 0;
 
   &:hover,
-  & :active {
+  &:active,
+  &:focus-visible {
     background-color: #ebebeb;
   }
 }

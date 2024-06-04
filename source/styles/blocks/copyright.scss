@@ -20,6 +20,16 @@
       mask-image: url("../../icons/stack.svg#html-academy-icon");
       display: block;
     }
+
+    &:hover::after,
+    &:focus-visible::after {
+      background-position: 0;
+      background-color: $base-color-green;
+    }
+
+    &:active {
+      opacity: 0.3;
+    }
   }
 }
 
